@@ -7,4 +7,4 @@ before_install:
   - docker-compose up -d
 
 
-script: docker-compose exec api python -m pytest "src/tests" 
+script: sudo docker-compose exec api python -m pytest "src/tests" 
